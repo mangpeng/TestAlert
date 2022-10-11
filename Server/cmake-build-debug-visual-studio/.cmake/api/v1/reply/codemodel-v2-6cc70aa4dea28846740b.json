@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.23"
+						"string" : "3.10.2"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ServerR::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ServerR-Debug-35f16526b18363eac1be.json",
+					"jsonFile" : "target-ServerR-Debug-3af6efbb34b7e1436682.json",
 					"name" : "ServerR",
 					"projectIndex" : 0
 				}

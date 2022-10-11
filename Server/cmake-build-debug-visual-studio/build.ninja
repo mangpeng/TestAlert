@@ -50,7 +50,7 @@ cmake_ninja_workdir = D$:\Reposit\TestAlert\Server\cmake-build-debug-visual-stud
 build cmake_object_order_depends_target_ServerR: phony || CMakeFiles\ServerR.dir
 
 build CMakeFiles\ServerR.dir\main.cpp.obj: CXX_COMPILER__ServerR_Debug D$:\Reposit\TestAlert\Server\main.cpp || cmake_object_order_depends_target_ServerR
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17
   INCLUDES = -ID:\Reposit\TestAlert\Server\cmake-build-debug-visual-studio\..\src -ID:\Reposit\TestX2\Includes
   OBJECT_DIR = CMakeFiles\ServerR.dir
   OBJECT_FILE_DIR = CMakeFiles\ServerR.dir
@@ -58,7 +58,7 @@ build CMakeFiles\ServerR.dir\main.cpp.obj: CXX_COMPILER__ServerR_Debug D$:\Repos
   TARGET_PDB = ServerR.pdb
 
 build CMakeFiles\ServerR.dir\src\Network.cpp.obj: CXX_COMPILER__ServerR_Debug D$:\Reposit\TestAlert\Server\src\Network.cpp || cmake_object_order_depends_target_ServerR
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17
   INCLUDES = -ID:\Reposit\TestAlert\Server\cmake-build-debug-visual-studio\..\src -ID:\Reposit\TestX2\Includes
   OBJECT_DIR = CMakeFiles\ServerR.dir
   OBJECT_FILE_DIR = CMakeFiles\ServerR.dir\src
@@ -74,7 +74,7 @@ build CMakeFiles\ServerR.dir\src\Network.cpp.obj: CXX_COMPILER__ServerR_Debug D$
 # Link the executable ServerR.exe
 
 build ServerR.exe: CXX_EXECUTABLE_LINKER__ServerR_Debug CMakeFiles\ServerR.dir\main.cpp.obj CMakeFiles\ServerR.dir\src\Network.cpp.obj | D$:\Reposit\TestX2\cmake-build-debug-visual-studio\TestX2.lib
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = D:\Reposit\TestX2\cmake-build-debug-visual-studio\TestX2.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\ServerR.dir

@@ -50,7 +50,7 @@ cmake_ninja_workdir = D$:\Reposit\TestAlert\Server\cmake-build-release-visual-st
 build cmake_object_order_depends_target_ServerD: phony || CMakeFiles\ServerD.dir
 
 build CMakeFiles\ServerD.dir\main.cpp.obj: CXX_COMPILER__ServerD_Release D$:\Reposit\TestAlert\Server\main.cpp || cmake_object_order_depends_target_ServerD
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17
   INCLUDES = -ID:\Reposit\TestAlert\Server\cmake-build-release-visual-studio\..\src -ID:\Reposit\TestX2\Includes
   OBJECT_DIR = CMakeFiles\ServerD.dir
   OBJECT_FILE_DIR = CMakeFiles\ServerD.dir
@@ -58,7 +58,7 @@ build CMakeFiles\ServerD.dir\main.cpp.obj: CXX_COMPILER__ServerD_Release D$:\Rep
   TARGET_PDB = ServerD.pdb
 
 build CMakeFiles\ServerD.dir\src\Network.cpp.obj: CXX_COMPILER__ServerD_Release D$:\Reposit\TestAlert\Server\src\Network.cpp || cmake_object_order_depends_target_ServerD
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17
   INCLUDES = -ID:\Reposit\TestAlert\Server\cmake-build-release-visual-studio\..\src -ID:\Reposit\TestX2\Includes
   OBJECT_DIR = CMakeFiles\ServerD.dir
   OBJECT_FILE_DIR = CMakeFiles\ServerD.dir\src
@@ -74,7 +74,7 @@ build CMakeFiles\ServerD.dir\src\Network.cpp.obj: CXX_COMPILER__ServerD_Release 
 # Link the executable ServerD.exe
 
 build ServerD.exe: CXX_EXECUTABLE_LINKER__ServerD_Release CMakeFiles\ServerD.dir\main.cpp.obj CMakeFiles\ServerD.dir\src\Network.cpp.obj | D$:\Reposit\TestX2\cmake-build-release-visual-studio\TestX2.lib
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG
   LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /subsystem:console
   LINK_LIBRARIES = D:\Reposit\TestX2\cmake-build-release-visual-studio\TestX2.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\ServerD.dir

@@ -12,6 +12,6 @@ RUN git clone https://github.com/mangpeng/TestX2.git /build/x2
 #RUN cmake -DCMAKE_BUILD_TYPE=Release -G Ninja -S /build/x2 -B /build/x2
 #RUN cmake --build /build/x2 --target x2
 
-RUN git clone [Project] /dev/Project
-RUN cmake -DCMAKE_BUILD_TYPE=Debug -Dx2=/x2 -G Ninja -S /dev/Project -B /dev/Project/Server/cmake-build
-RUN cmake --build /dev/ctserver/cmake-build --target ctserver
+RUN git clone https://github.com/mangpeng/TestAlert.git /build/Alert
+RUN cmake -DCMAKE_BUILD_TYPE=Release -Dx2=/build/x2 -G Ninja -S /build/Alert/Server -B /build/Alert/Server
+RUN cmake --build /build/Alert/Server/cmake-build --target server
