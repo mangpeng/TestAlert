@@ -1,3 +1,0 @@
-D:/Reposit/TestAlert/Server/cmake-build-debug/CMakeFiles/Server.dir
-D:/Reposit/TestAlert/Server/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Reposit/TestAlert/Server/cmake-build-debug/CMakeFiles/rebuild_cache.dir

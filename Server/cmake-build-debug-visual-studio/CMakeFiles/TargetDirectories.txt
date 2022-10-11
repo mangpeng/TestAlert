@@ -1,0 +1,3 @@
+D:/Reposit/TestAlert/Server/cmake-build-debug-visual-studio/CMakeFiles/ServerR.dir
+D:/Reposit/TestAlert/Server/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+D:/Reposit/TestAlert/Server/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
