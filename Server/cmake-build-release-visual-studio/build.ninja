@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_ServerD: phony || CMakeFiles\ServerD.dir
 
 build CMakeFiles\ServerD.dir\main.cpp.obj: CXX_COMPILER__ServerD_Release D$:\Reposit\TestAlert\Server\main.cpp || cmake_object_order_depends_target_ServerD
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17
-  INCLUDES = -ID:\Reposit\TestAlert\Server\cmake-build-release-visual-studio\..\src -ID:\Reposit\TestX2\Includes
+  INCLUDES = -ID:\Reposit\TestAlert\Server\src -ID:\Reposit\TestX2\Includes
   OBJECT_DIR = CMakeFiles\ServerD.dir
   OBJECT_FILE_DIR = CMakeFiles\ServerD.dir
   TARGET_COMPILE_PDB = CMakeFiles\ServerD.dir\
@@ -59,7 +59,7 @@ build CMakeFiles\ServerD.dir\main.cpp.obj: CXX_COMPILER__ServerD_Release D$:\Rep
 
 build CMakeFiles\ServerD.dir\src\Network.cpp.obj: CXX_COMPILER__ServerD_Release D$:\Reposit\TestAlert\Server\src\Network.cpp || cmake_object_order_depends_target_ServerD
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17
-  INCLUDES = -ID:\Reposit\TestAlert\Server\cmake-build-release-visual-studio\..\src -ID:\Reposit\TestX2\Includes
+  INCLUDES = -ID:\Reposit\TestAlert\Server\src -ID:\Reposit\TestX2\Includes
   OBJECT_DIR = CMakeFiles\ServerD.dir
   OBJECT_FILE_DIR = CMakeFiles\ServerD.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\ServerD.dir\

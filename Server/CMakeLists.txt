@@ -4,7 +4,7 @@ project(Server)
 set(CMAKE_CXX_STANDARD 17)
 
 #Dx2=../../TestX2
-set(SRC ${CMAKE_BINARY_DIR}/../src)
+set(SRC src)
 set(X2_INCLUDE_DIR ${x2}/Includes)
 include_directories(
         ${SRC}

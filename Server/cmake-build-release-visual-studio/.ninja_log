@@ -1,10 +1,7 @@
 # ninja log v5
-0	74	6872060214921048	build.ninja	9a054e07f860d39
+0	74	6872064247603146	build.ninja	9a054e07f860d39
 0	355	6872009403515251	CMakeFiles/Server.dir/main.cpp.obj	2d2c96ce3983c185
 355	495	6872009404906167	Server.exe	d26a1106022900ad
-2	337	6872015855138291	CMakeFiles/ServerD.dir/src/Network.cpp.obj	1db81d9f1572fdd
-0	337	6872015855138291	CMakeFiles/ServerD.dir/main.cpp.obj	7e07c67056f1a53b
-338	445	6872015856223223	ServerD.exe	884d4e562b7f4ddb
-0	358	6872060254312394	CMakeFiles/ServerD.dir/main.cpp.obj	922d90fb7ddd3e06
 3	358	6872060254312394	CMakeFiles/ServerD.dir/src/Network.cpp.obj	e56eb1714f389aea
+0	358	6872060254312394	CMakeFiles/ServerD.dir/main.cpp.obj	922d90fb7ddd3e06
 359	2510	6872060275836171	ServerD.exe	884d4e562b7f4ddb
